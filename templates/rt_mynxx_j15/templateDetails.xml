@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+    <name>rt_mynxx_j15</name>
+    <version>1.5.7</version>
+    <creationDate>August 19, 2010</creationDate>
+    <author>RocketTheme, LLC</author>
+    <authorEmail>support@rockettheme.com</authorEmail>
+    <authorUrl>http://www.rockettheme.com</authorUrl>
+    <copyright>Copyright 2005-2010 - RocketTheme.com</copyright>
+    <license>Proprietary - RocketTheme Joomla Club Members Only</license>
+    <description>
+			<![CDATA[
+			<h1>RocketTheme Mynxx</h1>
+
+			<img src="../templates/rt_mynxx_j15/template_thumbnail.png" style="border: 4px solid #ccc; padding: 2px; float: left; margin-bottom: 10px;" /><div class="clr"></div><br />Mynxx is the new April 2009 Joomla template from RocketTheme. It is not free or public.  This template is for members of the RocketTheme Joomla Template Club only.  For additional information visit the <a href="http://www.rockettheme.com/joomla-templates/mynxx">Mynxx Overview Page</a>.
+
+			<h3>Changelog</h3>
+
+			<b>1.5.7</b><br />
+			<ul>
+			<li>Mootools 1.2 Update</li>
+			</ul>
+
+			<b>1.5.6</b><br />
+			<ul>
+			<li>Fixed bug when copyright turned off joomla copyright appears however is unreadable.</li>
+			</ul>
+
+			<b>1.5.5</b><br />
+			<ul>
+			<li>Fixed bug with Rok Virtuemart Category layout.</li>
+			</ul>
+
+			<b>1.5.4</b><br />
+			<ul>
+			<li>Fixed IE6/7 font issue with Virtuemart checkout</li>
+			<li>IIS REQUEST URI Bug Fix</li>
+			<li>Fixed IE7 blog layout alignment</li>
+			<li>Fixed SSL add product bug.</li>
+			<li>Fixed Search Result flag bug</li>
+			<li>Fixed broken rokvirtuemart categories bug</li>
+			<li>Fixed Roktabs icon bug</li>
+			<li>Joomla! 1.5.17 bug fix </li>
+			<li>Fixed search result category bug</li>
+			<li>Minor bug fixes</li>
+			<li>Fixed Front Page no component display</li>
+			</ul>
+
+			<b>1.5.3</b><br />
+			<ul>
+			<li>Low impact XSS vulnerability patch</li>
+			</ul>
+
+			<b>1.5.2</b><br />
+			<ul>
+			<li>Fixed missing xml installation entries</li>
+			<li>Added cart toggle functionality</li>
+			<li>Fixed issues with dropdown panels (login, font) not working correctly</li>
+			<li>Fixed issues with read more buttons in Firefox2/Seamonkey</li>
+			</ul>
+
+			<b>1.5.1</b><br />
+			<ul>
+			<li>Caching fixes for RokNavMenu</li>
+			<li>Fixed alignment issues in Firefox 2</li>
+			<li>IE6 and IE7 tweaks</li>
+			</ul>
+
+			<b>1.5.0</b><br />
+			<ul>
+			<li>Initial Release</li>
+			</ul>
+
+			]]>
+    </description>
+	<files>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>rt_styleloader.php</filename>
+		<filename>component.php</filename>
+		<filename>rt_styleswitcher.php</filename>
+		<filename>rt_utils.php</filename>
+		<filename>styles.php</filename>
+		<filename>rt_head_includes.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>admin/</folder>
+		<folder>html/</folder>
+		<folder>elements/</folder>
+		<folder>moorainbow/</folder>
+		<folder>menus/</folder>
+		<folder>css/</folder>
+		<folder>images/</folder>
+		<folder>js/</folder>
+	</files>
+	<positions>
+		<position>advertisement</position>
+		<position>logo</position>
+		<position>toolbar</position>
+		<position>login</position>
+		<position>newsflash</position>
+		<position>showcase</position>
+		<position>showcase2</position>
+		<position>showcase3</position>
+		<position>showcase4</position>
+		<position>showcase5</position>
+		<position>scroller</position>
+		<position>search-left</position>
+		<position>search-right</position>
+		<position>left</position>
+		<position>right</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>breadcrumb</position>
+		<position>inactive</position>
+		<position>inset</position>
+		<position>inset2</position>
+		<position>popup</position>
+		<position>bottom</position>
+		<position>bottom2</position>
+		<position>bottom3</position>
+		<position>bottom-menu</position>
+		<position>footer</position>
+		<position>debug</position>
+	</positions>
+	<languages>
+		<language tag="en-GB">en-GB.tpl_rt_mynxx_j15.ini</language>
+	</languages>
+	<administration>
+		<languages folder="admin">
+			<language tag="en-GB">en-GB.tpl_rt_mynxx_j15.ini</language>
+		</languages>
+	</administration>
+	<params addpath="/templates/rt_mynxx_j15/elements">
+
+		<param name="presetStyle" type="list" default="dark-red" label="PRESET_STYLE" description="PRESET_DESC">
+			<option value="dark-red">STYLE1</option>
+			<option value="dark-blue">STYLE2</option>
+			<option value="dark-green">STYLE3</option>
+			<option value="dark-orange">STYLE4</option>
+			<option value="light-red">STYLE5</option>
+			<option value="light-blue">STYLE6</option>
+			<option value="light-green">STYLE7</option>
+			<option value="light-orange">STYLE8</option>
+			<option value="custom">CUSTOM</option>
+		</param>
+		<param name="bodyStyle" type="list" default="dark" label="BODY_STYLE" description="BODY_STYLE_DESC">
+			<option value="dark">DARK</option>
+			<option value="light">LIGHT</option>
+		</param>
+		<param name="primaryColor" type="colorchooser" default="#cc0000" label="PRIMARY_COLOR" description="PRIMARY_DESC" />
+		<param name="enableFrontpage" type="list" default="show" label="DISPLAY_FRONTPAGE" description="FRONTPAGE_DESC">
+			<option value="show">SHOW</option>
+			<option value="hide">HIDE</option>
+		</param>
+		<param name="enableIe6warn" type="radio" default="1" label="ENABLE_IE6" description="ENABLE_IE6_DESC">
+			<option value="1">ENABLED</option>
+			<option value="0">DISABLED</option>
+		</param>
+		<param name="fontFamily" type="list" default="mynxx" label="FONT_FAMILY" description="FONT_FAMILY_DESC">
+			<option value="mynxx">MYNXX</option>
+			<option value="geneva">GENEVA</option>
+			<option value="optima">OPTIMA</option>
+			<option value="helvetica">HELVETICA</option>
+			<option value="trebuchet">TREBUCHET</option>
+			<option value="lucida">LUCIDA</option>
+			<option value="georgia">GEORGIA</option>
+			<option value="palatino">PALATINO</option>
+		</param>
+		<param name="templateWidth" type="text" default="958" label="TEMPLATE_WIDTH" description="TEMPLATE_WIDTH_DESC" />
+		<param name="leftinsetWidth" type="text" default="180" label="LEFT_INSET_WIDTH" description="LEFT_INSET_WIDTH_DESC" />
+		<param name="rightinsetWidth" type="text" default="180" label="RIGHT_INSET_WIDTH" description="RIGHT_INSET_WIDTH_DESC" />
+		<param name="splitmenuCol" type="list" default="rightcol" label="SPLITMENU_SIDE" description="SPLITMENU_SIDE_DESC">
+			<option value="leftcol">LEFT_COLUMN</option>
+			<option value="rightcol">RIGHT_COLUMN</option>
+		</param>
+		<param name="defaultFont" type="list" default="default" label="FONT_SIZE" description="FONT_SIZE_DESC">
+			<option value="small">SMALLER</option>
+			<option value="default">DEFAULT</option>
+			<option value="large">LARGER</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="showLogo" type="radio" default="1" label="SHOW_LOGO" description="SHOW_LOGO_DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="showLogoslogan" type="radio" default="1" label="SHOW_LOGO_SLOGAN" description="SHOW_LOGO_SLOGAN_DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="logoSlogan" type="text" default="Apr 09 Design" label="LOGO_SLOGAN" description="LOGO_SLOGAN_DESC" />
+		<param name="showBottomlogo" type="radio" default="1" label="SHOW_BOT_LOGO" description="SHOW_BOT_LOG_DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="showCopyright" type="radio" default="1" label="SHOW_COPYRIGHT" description="SHOW_COPYRIGHT_DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="showHomebutton" type="radio" default="1" label="SHOW_HOME" description="SHOW_HOME_DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="showTextsizer" type="radio" default="1" label="SHOW_FONT" description="SHOW_FONT_DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="showCart" type="radio" default="1" label="SHOW_CART" description="SHOW_CART_DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="showFontchanger" type="radio" default="1" label="SHOW_FONT_STYLE" description="SHOW_FONT_STYLE_DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="jsCompatibility" type="radio" default="0" label="JS_COMPATIBILITY" description="JS_COMPATIBILITY_DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="menuType" type="list" default="moomenu" label="MENU_TYPE" description="MENU_TYPE_DESC">
+			<option value="moomenu">MOOMENU</option>
+			<option value="suckerfish">SUCKERFISH</option>
+			<option value="splitmenu">SPLITMENU</option>
+			<option value="module">TOOLBAR_POSITION</option>
+			<option value="none">NO_MENU</option>
+		</param>
+		<param name="menuRowsPerColumn" type="text" default="" label="DROPDOWN_ROW" description="DROPDOWN_ROW_DESC" />
+		<param name="menuColumns" type="text" default="" label="DROPDOWN_COL" description="DROPDOWN_COL_DESC" />
+		<param name="menuMultiColLevel" type="text" default="2" label="COL_LEVEL" description="COL_LEVEL_DESC" />
+		<param name="menuName" type="text" default="mainmenu" label="MENU_NAME" description="MENU_NAME_DESC" />
+		<param name="moo_bgiframe" type="radio" default="0" label="MOOMENU_BGIFRAME" description="MOOMENU_BGI_DESC.">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="moo_delay" type="text" default="500" label="MOOMENU_DELAY" description="MOOMENU_DELAY_DESC" />
+		<param name="moo_duration" type="text" default="600" label="MOOMENU_DURATION" description="MOOMENU_DURATION_DESC" />
+		<param name="moo_fps" type="text" default="200" label="MOOMENU_FPS" description="MOOMENU_FPS_DESC" />
+		<param name="moo_transition" type="list" default="Sine.easeOut" label="MOOMENU_TRANSITION" description="MOOMENU_TRANSITION_DESC">
+			<option value="linear">linear</option>
+			<option value="Quad.easeOut">Quad.easeOut</option>
+			<option value="Quad.easeIn">Quad.easeIn</option>
+			<option value="Quad.easeInOut">Quad.easeInOut</option>
+			<option value="Cubic.easeOut">Cubic.easeOut</option>
+			<option value="Cubic.easeIn">Cubic.easeIn</option>
+			<option value="Cubic.easeInOut">Cubic.easeInOut</option>
+			<option value="Quart.easeOut">Quart.easeOut</option>
+			<option value="Quart.easeIn">Quart.easeIn</option>
+			<option value="Quart.easeInOut">Quart.easeInOut</option>
+			<option value="Quint.easeOut">Quint.easeOut</option>
+			<option value="Quint.easeIn">Quint.easeIn</option>
+			<option value="Quint.easeInOut">Quint.easeInOut</option>
+			<option value="Expo.easeOut">Expo.easeOut</option>
+			<option value="Expo.easeIn">Expo.easeIn</option>
+			<option value="Expo.easeInOut">Expo.easeInOut</option>
+			<option value="Circ.easeOut">Circ.easeOut</option>
+			<option value="Circ.easeIn">Circ.easeIn</option>
+			<option value="Circ.easeInOut">Circ.easeInOut</option>
+			<option value="Sine.easeOut">Sine.easeOut</option>
+			<option value="Sine.easeIn">Sine.easeIn</option>
+			<option value="Sine.easeInOut">Sine.easeInOut</option>
+			<option value="Back.easeOut">Back.easeOut</option>
+			<option value="Back.easeIn">Back.easeIn</option>
+			<option value="Back.easeInOut">Back.easeInOut</option>
+			<option value="Bounce.easeOut">Bounce.easeOut</option>
+			<option value="Bounce.easeIn">Bounce.easeIn</option>
+			<option value="Bounce.easeInOut">Bounce.easeInOut</option>
+			<option value="Elastic.easeOut">Elastic.easeOut</option>
+			<option value="Elastic.easeIn">Elastic.easeIn</option>
+			<option value="Elastic.easeInOut">Elastic.easeInOut</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moo_bg_enabled" type="radio" default="1" label="MOOMENU_BGEFFECT" description="MOOMENU_BGEFFECT_DESC">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="moo_bg_over_duration" type="text" default="500" label="MOOMENU_BG_DURATION" description="MOOMENU_BG_DURATION_DESC" />
+		<param name="moo_bg_over_transition" type="list" default="Expo.easeOut" label="MOOMENU_BG_TRANSITION" description="MOOMENU_BG_TRANS_DESC">
+			<option value="linear">linear</option>
+			<option value="Quad.easeOut">Quad.easeOut</option>
+			<option value="Quad.easeIn">Quad.easeIn</option>
+			<option value="Quad.easeInOut">Quad.easeInOut</option>
+			<option value="Cubic.easeOut">Cubic.easeOut</option>
+			<option value="Cubic.easeIn">Cubic.easeIn</option>
+			<option value="Cubic.easeInOut">Cubic.easeInOut</option>
+			<option value="Quart.easeOut">Quart.easeOut</option>
+			<option value="Quart.easeIn">Quart.easeIn</option>
+			<option value="Quart.easeInOut">Quart.easeInOut</option>
+			<option value="Quint.easeOut">Quint.easeOut</option>
+			<option value="Quint.easeIn">Quint.easeIn</option>
+			<option value="Quint.easeInOut">Quint.easeInOut</option>
+			<option value="Expo.easeOut">Expo.easeOut</option>
+			<option value="Expo.easeIn">Expo.easeIn</option>
+			<option value="Expo.easeInOut">Expo.easeInOut</option>
+			<option value="Circ.easeOut">Circ.easeOut</option>
+			<option value="Circ.easeIn">Circ.easeIn</option>
+			<option value="Circ.easeInOut">Circ.easeInOut</option>
+			<option value="Sine.easeOut">Sine.easeOut</option>
+			<option value="Sine.easeIn">Sine.easeIn</option>
+			<option value="Sine.easeInOut">Sine.easeInOut</option>
+			<option value="Back.easeOut">Back.easeOut</option>
+			<option value="Back.easeIn">Back.easeIn</option>
+			<option value="Back.easeInOut">Back.easeInOut</option>
+			<option value="Bounce.easeOut">Bounce.easeOut</option>
+			<option value="Bounce.easeIn">Bounce.easeIn</option>
+			<option value="Bounce.easeInOut">Bounce.easeInOut</option>
+			<option value="Elastic.easeOut">Elastic.easeOut</option>
+			<option value="Elastic.easeIn">Elastic.easeIn</option>
+			<option value="Elastic.easeInOut">Elastic.easeInOut</option>
+		</param>
+		<param name="moo_bg_out_duration" type="text" default="600" label="MOOMENU_OUT_BG_DURATION" description="MOOMENU_OUT_BG_DURATION_DESC" />
+		<param name="moo_bg_out_transition" type="list" default="Sine.easeOut" label="MOOMENU_OUT_BG_TRANS" description="MOOMENU_OUT_BG_TRANS_DESC">
+			<option value="linear">linear</option>
+			<option value="Quad.easeOut">Quad.easeOut</option>
+			<option value="Quad.easeIn">Quad.easeIn</option>
+			<option value="Quad.easeInOut">Quad.easeInOut</option>
+			<option value="Cubic.easeOut">Cubic.easeOut</option>
+			<option value="Cubic.easeIn">Cubic.easeIn</option>
+			<option value="Cubic.easeInOut">Cubic.easeInOut</option>
+			<option value="Quart.easeOut">Quart.easeOut</option>
+			<option value="Quart.easeIn">Quart.easeIn</option>
+			<option value="Quart.easeInOut">Quart.easeInOut</option>
+			<option value="Quint.easeOut">Quint.easeOut</option>
+			<option value="Quint.easeIn">Quint.easeIn</option>
+			<option value="Quint.easeInOut">Quint.easeInOut</option>
+			<option value="Expo.easeOut">Expo.easeOut</option>
+			<option value="Expo.easeIn">Expo.easeIn</option>
+			<option value="Expo.easeInOut">Expo.easeInOut</option>
+			<option value="Circ.easeOut">Circ.easeOut</option>
+			<option value="Circ.easeIn">Circ.easeIn</option>
+			<option value="Circ.easeInOut">Circ.easeInOut</option>
+			<option value="Sine.easeOut">Sine.easeOut</option>
+			<option value="Sine.easeIn">Sine.easeIn</option>
+			<option value="Sine.easeInOut">Sine.easeInOut</option>
+			<option value="Back.easeOut">Back.easeOut</option>
+			<option value="Back.easeIn">Back.easeIn</option>
+			<option value="Back.easeInOut">Back.easeInOut</option>
+			<option value="Bounce.easeOut">Bounce.easeOut</option>
+			<option value="Bounce.easeIn">Bounce.easeIn</option>
+			<option value="Bounce.easeInOut">Bounce.easeInOut</option>
+			<option value="Elastic.easeOut">Elastic.easeOut</option>
+			<option value="Elastic.easeIn">Elastic.easeIn</option>
+			<option value="Elastic.easeInOut">Elastic.easeInOut</option>
+		</param>
+
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moo_sub_enabled" type="radio" default="0" label="MOOMENU_SUB_EFFECT" description="MOOMENU_SUB_EFFECT_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="moo_sub_opacity" type="text" default="0.8" label="MOOMENU_SUB_OPACITY" description="MOOMENU_SUB_OPACITY_DESC" />
+		<param name="moo_sub_over_duration" type="text" default="50" label="MOOMENU_SUBOVER_DURATION" description="MOOMENU_SUBOVER_DURATION_DESC" />
+		<param name="moo_sub_over_transition" type="list" default="Expo.easeOut" label="MOOMENU_SUBOVER_TRANS" description="MOOMENU_SUBOVER_TRANS_DESC">
+			<option value="linear">linear</option>
+			<option value="Quad.easeOut">Quad.easeOut</option>
+			<option value="Quad.easeIn">Quad.easeIn</option>
+			<option value="Quad.easeInOut">Quad.easeInOut</option>
+			<option value="Cubic.easeOut">Cubic.easeOut</option>
+			<option value="Cubic.easeIn">Cubic.easeIn</option>
+			<option value="Cubic.easeInOut">Cubic.easeInOut</option>
+			<option value="Quart.easeOut">Quart.easeOut</option>
+			<option value="Quart.easeIn">Quart.easeIn</option>
+			<option value="Quart.easeInOut">Quart.easeInOut</option>
+			<option value="Quint.easeOut">Quint.easeOut</option>
+			<option value="Quint.easeIn">Quint.easeIn</option>
+			<option value="Quint.easeInOut">Quint.easeInOut</option>
+			<option value="Expo.easeOut">Expo.easeOut</option>
+			<option value="Expo.easeIn">Expo.easeIn</option>
+			<option value="Expo.easeInOut">Expo.easeInOut</option>
+			<option value="Circ.easeOut">Circ.easeOut</option>
+			<option value="Circ.easeIn">Circ.easeIn</option>
+			<option value="Circ.easeInOut">Circ.easeInOut</option>
+			<option value="Sine.easeOut">Sine.easeOut</option>
+			<option value="Sine.easeIn">Sine.easeIn</option>
+			<option value="Sine.easeInOut">Sine.easeInOut</option>
+			<option value="Back.easeOut">Back.easeOut</option>
+			<option value="Back.easeIn">Back.easeIn</option>
+			<option value="Back.easeInOut">Back.easeInOut</option>
+			<option value="Bounce.easeOut">Bounce.easeOut</option>
+			<option value="Bounce.easeIn">Bounce.easeIn</option>
+			<option value="Bounce.easeInOut">Bounce.easeInOut</option>
+			<option value="Elastic.easeOut">Elastic.easeOut</option>
+			<option value="Elastic.easeIn">Elastic.easeIn</option>
+			<option value="Elastic.easeInOut">Elastic.easeInOut</option>
+		</param>
+		<param name="moo_sub_out_duration" type="text" default="600" label="MOOMENU_SUBOUT_DURATION" description="MOOMENU_SUBOUT_DURATION_DESC" />
+		<param name="moo_sub_over_transition" type="list" default="Expo.easeOut" label="MOOMENU_SUBOUT_TRANS" description="MOOMENU_SUBOUT_TRANS_DESC">
+			<option value="linear">linear</option>
+			<option value="Quad.easeOut">Quad.easeOut</option>
+			<option value="Quad.easeIn">Quad.easeIn</option>
+			<option value="Quad.easeInOut">Quad.easeInOut</option>
+			<option value="Cubic.easeOut">Cubic.easeOut</option>
+			<option value="Cubic.easeIn">Cubic.easeIn</option>
+			<option value="Cubic.easeInOut">Cubic.easeInOut</option>
+			<option value="Quart.easeOut">Quart.easeOut</option>
+			<option value="Quart.easeIn">Quart.easeIn</option>
+			<option value="Quart.easeInOut">Quart.easeInOut</option>
+			<option value="Quint.easeOut">Quint.easeOut</option>
+			<option value="Quint.easeIn">Quint.easeIn</option>
+			<option value="Quint.easeInOut">Quint.easeInOut</option>
+			<option value="Expo.easeOut">Expo.easeOut</option>
+			<option value="Expo.easeIn">Expo.easeIn</option>
+			<option value="Expo.easeInOut">Expo.easeInOut</option>
+			<option value="Circ.easeOut">Circ.easeOut</option>
+			<option value="Circ.easeIn">Circ.easeIn</option>
+			<option value="Circ.easeInOut">Circ.easeInOut</option>
+			<option value="Sine.easeOut">Sine.easeOut</option>
+			<option value="Sine.easeIn">Sine.easeIn</option>
+			<option value="Sine.easeInOut">Sine.easeInOut</option>
+			<option value="Back.easeOut">Back.easeOut</option>
+			<option value="Back.easeIn">Back.easeIn</option>
+			<option value="Back.easeInOut">Back.easeInOut</option>
+			<option value="Bounce.easeOut">Bounce.easeOut</option>
+			<option value="Bounce.easeIn">Bounce.easeIn</option>
+			<option value="Bounce.easeInOut">Bounce.easeInOut</option>
+			<option value="Elastic.easeOut">Elastic.easeOut</option>
+			<option value="Elastic.easeIn">Elastic.easeIn</option>
+			<option value="Elastic.easeInOut">Elastic.easeInOut</option>
+		</param>
+		<param name="moo_sub_offsets_top" type="text" default="0" label="MOOMENU_SUBTOP_OFFSET" description="MOOMENU_SUBTOP_OFFSET_DESC" />
+		<param name="moo_sub_offsets_right" type="text" default="1" label="MOOMENU_SUBRIGHT_OFFSET" description="MOOMENU_SUBRIGHT_OFFSET_DESC" />
+		<param name="moo_sub_offsets_bottom" type="text" default="0" label="MOOMENU_SUBBOTTOM_OFFSET" description="MOOMENU_SUBBOTTOM_OFFSET_DESC" />
+		<param name="moo_sub_offsets_left" type="text" default="1" label="MOOMENU_SUBLEFT_OFFSET" description="MOOMENU_SUBLEFT_OFFSET_DESC" />
+    </params>
+</install>
